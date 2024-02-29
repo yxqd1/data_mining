@@ -1,21 +1,18 @@
-# 数据挖掘
-
-第一次做这个方向。
+# 数据挖掘、数据分析及可视化
 
 ## 要求：
 
 
 
-通过互联网收集企业的数据，主要包括企业名字、成立时间、企业规模、企业简历、发展历程、企业类别、联系方式、主要产品和应用案例等信息。
-然后把这些数据存放到文档数据库MongoDB中。
-再使用大数据分析方法对数据进行清洗和标准化。
-接着使用数据挖掘和机器学习的方法对数据进行聚类，把具有相同特征的企业划分到同一个类别里。
-最后对不同类别的企业进行分析。
-把分析的结果进行可视化。
+- [x] 通过互联网收集企业的数据，主要包括企业名字、成立时间、企业规模、企业简历、发展历程、企业类别、联系方式、主要产品和应用案例等信息。
+- [x] 再使用大数据分析方法对数据进行清洗和标准化。
+- [x] 接着使用数据挖掘和机器学习的方法对数据进行聚类，把具有相同特征的企业划分到同一个类别里。
+- [x] 最后对不同类别的企业进行分析。
+- [x] 把分析的结果进行可视化。
 
 
 
-爬取数据对象就是长春市入户科技型中小企业达，大约有931户
+爬取数据对象就是长春市入户科技型中小企业
 
 
 
@@ -49,3 +46,58 @@
 
 [MongoDB 插入文档 | 菜鸟教程 (runoob.com)](https://www.runoob.com/mongodb/mongodb-insert.html)
 
+### 过程中参考
+
+##### 环境搭建：
+
+[Jupyter Notebook介绍、安装及使用教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/33105153)
+
+[史上最详细、最完全的jupyter notebook使用教程，Python使用者必备！——ipython系列之三-CSDN博客](https://blog.csdn.net/qq_27825451/article/details/84427269)
+
+[五分钟速学python:编程工具Jupyter的基础使用_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1tE411i7DR/?spm_id_from=333.337.search-card.all.click&vd_source=4c0931fca36737f651f105a346701138)
+
+
+
+##### 原理理解
+
+[MongoDB 如何将文件保存到 MongoDB|极客教程 (geek-docs.com)](https://geek-docs.com/mongodb/mongodb-questions/162_mongodb_how_do_i_save_a_file_to_mongodb.html#:~:text=本文介绍了如何将文件保存到 MongoDB 数据库中。 可以通过将文件转换为二进制数据并保存为文档的字段，或者使用,GridFS 存储大型文件。 在保存后，可以使用字段匹配查询或通过文件的 _id 进行读取操作。)
+
+[#2 Data Mining Functionalities |DM| (youtube.com)](https://www.youtube.com/watch?v=YCBMSg9Ogx8&list=PLmAmHQ-_5ySxFoIGmY1MJao-XYvYGxxgj&index=2)
+
+[2.1  数据预处理：数据清洗 (youtube.com)](https://www.youtube.com/watch?v=AiEw9cQEb84&list=PLSsYR1LcSWEw3tmyYJqZBqDvBm3iKvJ7R&index=9)
+
+#### 实战参考
+
+[Python数据分析（数据挖掘）实战项目教程 1 1 认识数据并预处理 (youtube.com)](https://www.youtube.com/watch?v=xFOP-H7GCqY&list=PLWfX9jo0AdkxPUOh10cp7OdDuU8eLS3ls)
+
+[10小时学会Python数据分析、挖掘、清洗、可视化从入门到项目实战 1 01 第一周重点内容梳理 (youtube.com)](https://www.youtube.com/watch?v=UVDQVNKO4UU&list=PLWfX9jo0Adkz11UU7ixrGoMujkXbhXvI3&index=1)
+
+[10-登船地点特征分析_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1TX4y1D7H4?p=10&vd_source=4c0931fca36737f651f105a346701138)
+
+[30万条数据准备情况_Python数据预处理（二）- 清洗文本数据-慕课网 (imooc.com)](https://www.imooc.com/video/19590)
+
+
+
+## 进度
+
+### 2月5日 
+
+数据获取
+
+### 2月19日
+
+手动处理数据
+
+加入数据库并进行数据处理和清洗
+
+### 2月26号
+
+完成”基于LRFMC模型的航空大数据客户价值分析“项目实例
+
+### 3月4号
+
+学习字符串转换成数值型的相关算法
+
+学习KMeans聚类算法
+
+完成大致内容，并不断调试
