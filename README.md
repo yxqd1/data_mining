@@ -56,8 +56,6 @@
 
 [五分钟速学python:编程工具Jupyter的基础使用_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1tE411i7DR/?spm_id_from=333.337.search-card.all.click&vd_source=4c0931fca36737f651f105a346701138)
 
-
-
 ##### 原理理解
 
 [MongoDB 如何将文件保存到 MongoDB|极客教程 (geek-docs.com)](https://geek-docs.com/mongodb/mongodb-questions/162_mongodb_how_do_i_save_a_file_to_mongodb.html#:~:text=本文介绍了如何将文件保存到 MongoDB 数据库中。 可以通过将文件转换为二进制数据并保存为文档的字段，或者使用,GridFS 存储大型文件。 在保存后，可以使用字段匹配查询或通过文件的 _id 进行读取操作。)
@@ -75,8 +73,6 @@
 [10-登船地点特征分析_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1TX4y1D7H4?p=10&vd_source=4c0931fca36737f651f105a346701138)
 
 [30万条数据准备情况_Python数据预处理（二）- 清洗文本数据-慕课网 (imooc.com)](https://www.imooc.com/video/19590)
-
-
 
 ## 进度
 
@@ -96,8 +92,68 @@
 
 ### 3月4号
 
-学习字符串转换成数值型的相关算法
+学习字符串转换成数值型的相关算法（独热算法、词袋模型）
 
 学习KMeans聚类算法
 
 完成大致内容，并不断调试
+
+新增统计工作，并将各部分文件分离
+
+学习文本特征分析的相关内容，并对经营范围字段进行分析（采用TF-IDF方法提取特征值，并采用LDA主题模型进行主题分析）
+
+
+
+
+
+## 数据字段说明
+
+**数据说明：**
+
+- name：企业名称
+- RS：登记状态
+- LS：法定代表人
+- photo：电话
+- MP：更多电话
+- RA：企业注册地
+- BS：经营范围
+- RC：注册资本（万元）
+- CT：成立日期
+- mailbox：邮箱
+- DAC：所属区县
+- INOTT：纳税人识别号
+- organizing institution bar code：组织机构代码
+- NOI：参保人数
+- AROIN：参保人数所属年报
+- TOE：企业(机构)类型
+- FS：企业规模 微型0 小型1 中型2 大型3国标行业中类
+- DOA：核准日期
+- TOO：营业期限
+- IS：国标行业门类
+- IBC：国标行业大类
+- IM：国标行业中类
+- ISS：国标行业小类
+- used name：曾用名
+- EN：英文名
+- OW：官网网址
+- MA：通信地址
+- EP：企业简介
+
+**最终保留的字段说明**
+
+- name：企业名称
+- LS：法定代表人
+- photo：电话
+- RA：企业注册地
+- BS：经营范围
+- RC：注册资本（万元）
+- CT：成立日期
+- DAC：所属区县
+- NOI：参保人数
+- AROIN：参保人数所属年报
+- TOE：企业(机构)类型
+- FS：企业规模 微型0 小型1 中型2 大型3国标行业中类
+- DOA：核准日期
+- IS：国标行业门类
+- IBC：国标行业大类
+- EP：企业简介
